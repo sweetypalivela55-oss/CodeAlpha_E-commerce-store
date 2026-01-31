@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce</title>
+</head>
+<body>
+    <h1>My Shop</h1>
+    <a href="{% url 'cart_view' %}">🛒 View Cart</a>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>
